@@ -1,0 +1,62 @@
+body {
+    background-color: rgba(28, 187, 23, 0.479);
+}
+h1,h2,h3,h4,h5,h6 {
+    background-color: rgba(0,0,0,0.2);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 3em;
+    text-align: center;
+}
+table {
+    background-image: url(https://images.pexels.com/photos/1438761/pexels-photo-1438761.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    font-size: 1.8em;
+    width: 500px;
+    height: 200px;
+}
+.tekstas {
+    color: rgba(0,0,0,0.6);
+}
+p {
+    text-align: justify;
+}
+#pirmas-paragrafas {
+    color: grey;
+    font-size: 30px;
+    text-decoration: none
+}
+a {
+    color: #ed0a3f;
+}
+a:hover {
+    color: #2d383a;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+li {
+    text-transform: lowercase;
+}
+img {
+    height: 200px;
+}
+.teiblas {
+    border: 2px solid red;
+    border-collapse: collapse;   
+}
+#pirma-lentele td {
+    vertical-align: top;
+}
+.ul {
+    list-style-type: square;
+}
+.ol {
+    list-style-type: upper-roman;
+}
+.saraso-elementai {
+    list-style-type: none;
+    border-bottom: 2px solid silver;
+}

@@ -1,0 +1,86 @@
+.pirmas {
+    display: flex;
+    padding: 1px 1em;
+}
+#pirmas {
+    background-color:skyblue;
+    justify-content: space-between;
+    align-items: center;
+    color: firebrick;
+    font-family: Arial;
+}
+ul li {
+    display: inline;
+}
+#header1 {
+    background-image: url(https://images.pexels.com/photos/355241/pexels-photo-355241.jpeg?cs=srgb&dl=adventure-alpine-altitude-355241.jpg&fm=jpg);
+    background-size: cover;
+    width: 100%;
+    height: 89vh;
+    margin: 0;
+    padding: 0;
+    color: coral;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+#header1 #info h1 {
+    margin: 0%;
+    display: inline-block;
+    font-size: 5em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: Courier;
+}
+#header1 #info p {
+    font-size: 1.5em;
+    max-width: 40%;
+    font-family: fantasy;
+}
+#header1 #info {
+    position: absolute;
+    left: 30em;
+    bottom: 20em;
+}
+#header2 #antras p {
+    font-size: 1.5em;
+    max-width: 40%;
+    display: inline;
+    margin: 0%;
+    display: flex;
+}
+#antras {
+    background-color: skyblue;
+    color: black;
+    justify-content: center;
+    text-align: center;
+}
+.antras {
+    display: flex;
+    margin: 0;
+    padding: 0.001em 0.5em;
+}
+.eile {
+    display: flex;
+    padding: 1em 2em;
+}
+#straipsniai > div {
+    background-color: rgb(141, 196, 218);
+    margin:  1em;
+    padding: 1em 2em;
+    box-shadow: 0.2em 0.2em 0.8em;
+}
+#trecias {
+    background-color: skyblue;
+}
+#straipsniaidu > div {
+    background-color: rgb(149, 202, 223);
+    margin:  1em;
+    padding: 1em 3em;
+    box-shadow: 0.2em 0.2em 0.8em;
+}
+.eiledu {
+    display: flex;
+    padding: 1em 5em;
+}

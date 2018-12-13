@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <p>kazkas kazkokio kazkas kazkokio kazkas kazkokio kazkas kazkokio kazkas kazkokio kazkas kazkokio kazkas kazkokio </p>
+    <p id="paragrafas">kazkas kazkokio kazkas kazkokio kazkas kazkokio kazkas kazkokio kazkas kazkokio kazkas kazkokio kazkas kazkokio</p>
+    <p id="norimas">kazkas kazkokio kazkas kazkokio kazkas kazkokio kazkas kazkokio kazkas kazkokio kazkas kazkokio kazkas kazkokio</p>
+
+    <script>
+        document.getElementById("paragrafas").innerHTML = "naujas tekstas";
+    </script>
+
+    <button onclick="document.getElementById('norimas').innerHTML = Date();">
+        Hapala
+    </button>
+
+    <button onclick="document.getElementById('lorem').innerHTML = Date();">
+        Halapa
+    </button>
+
+    <p id="lorem">Lorem ipsum dolor amet consectetur adipisicing elit. Sit quas eos quia in adipisci fugit doloremque quos explicabo odit, quaerat accusamus atque assumenda pariatur blanditiis autem non libero aperiam labore?</p>
+
+    <button onclick="document.getElementById('tekstas').style.fontSize ='35px'">
+        Padidinti teksta
+    </button>
+
+    <button onclick="document.getElementById('tekstas').style.color = 'red'">
+        Pakeisti spalva
+    </button>
+    <p id="tekstas">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure rem dolore expedita recusandae accusamus dolor, odit suscipit reprehenderit quam laborum. Aut ipsam aperiam ab alias, earum ipsum autem aliquam asperiores.</p>
+
+    <button onclick="document.getElementById('lempute').src = 'foto1.jpg'">
+        Ijungti lempute
+    </button>
+
+    <button onclick="document.getElementById('lempute').src = 'foto2.jpg'">
+        Isjungti lempute
+    </button>
+
+    <img src="foto2.jpg" alt="lempute" id="lempute">
+
+    <button onclick="pakeisti()">Pakeisti teksta</button>
+    <p id="textas">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quam enim animi quos. Eveniet ipsam vero consectetur enim, at, recusandae architecto, harum iste repellendus molestiae dolorum incidunt? Porro, ratione optio.</p>
+
+    <script>
+        function pakeisti() {
+            document.getElementById("textas").innerHTML = "naujas tekstas"
+        }
+    </script>
+
+    <button onclick="pakeisti('textas2', 'vienas du trys')">Pakeisti teksta 1</button>
+    <button onclick="pakeisti('textas2', 'batai kapranugaris meska')">Pakeisti teksta 2</button>
+    <button onclick="pakeisti('textas2', 'stalas kede medis')">Pakeisti teksta 3</button>
+    <button onclick="pakeisti('textas2', 'berzasa obelis gyvate')">Pakeisti teksta 4</button>
+    <br>
+
+    <button onclick="kitaspalva('textas2', 'black')">Juodai</button>
+    <button onclick="kitaspalva('textas2', 'red')">Raudonai</button>
+    <button onclick="kitaspalva('textas2', 'green')">Zaliai</button>
+    <br>
+
+    <p id=textas2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat sapiente alias est repellendus rerum molestiae mollitia dolorum blanditiis voluptate soluta impedit minima rem qui, eveniet voluptatum quidem eaque aut culpa?</p>
+
+<script src="7.js"></script>
+
+    <p id="suma"></p>
+    <p id="skirtumas"></p>
+    <p id="sandauga"></p>
+    <p id="dalmuo"></p>
+
+    <script src="8.js"></script>
+
+    <input type="number" id="pirmas">
+    <input type="number" id="antras">
+    <button onclick="suma()">Skaiciuoti i suma</button>
+    <p id="suma"></p>
+
+    <script src="9.js"></script>
+
+    <div id="blokas"></div>
+
+    <input type="number" id="skaicius">
+    <button onclick="lentele()">Daugybos lentele</button>
+
+    <div id="lentelesBlokas"></div>
+
+    <script src="10.js"></script>
+
+    <button id="mygtukas">Atidengti turini</button>
+    <p id="paragrafas" style="display: none">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt quas fuga ex dolores quam voluptate ut doloribus vitae ipsam. Nisi soluta nostrum quo incidunt nobis non placeat voluptates hic amet?
+    </p>
+
+    <script>
+        document.getElementById("mygtukas").onlick = function() {
+            document.getElementById("paragrafas").style.display = "block";
+        }
+    </script>
+
+<button id="mygtukas2">Perjungti turini</button>
+<p id="paragrafas2" style="display: none">
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt quas fuga ex dolores quam voluptate ut doloribus vitae ipsam. Nisi soluta nostrum quo incidunt nobis non placeat voluptates hic amet?
+</p>
+
+<script src="11.js"></script>
+
+    <button id="mygtukas3">Perjungti turini</button>
+    <p id="paragrafas3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi sed eligendi assumenda reiciendis libero laboriosam nisi error temporibus, cum voluptate tempora, rerum modi repudiandae distinctio labore eaque, ex beatae optio!
+    </p>
+
+    <script src="12.js"></script>
+    
+</body>
+</html>

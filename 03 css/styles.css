@@ -1,0 +1,71 @@
+body {
+    background-color: darkcyan;
+}
+div {
+    background-color: azure;
+    max-width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+.pirmas {
+    border: 12px solid blueviolet;
+    box-shadow: 5px 5px 15px black;
+}
+.antras {
+    padding-top: 0em;
+    padding-left: 5em;
+    padding-right: 5em;
+    border-radius: 150px;
+    box-shadow: 0 0 50px rgba(0,0,0,0.5)
+}
+.trecias {
+    padding-top: 0em;
+    padding-bottom: 5em;
+    padding-left: 0em;
+    padding-right: 03m;
+    border-bottom: 10px solid red;
+    border-right: 15px dashed green;
+}
+.ketvirtas {
+    padding: 0em 5em 1em;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 50px;
+}
+.penktas {
+    padding: 0em 0em 5em;
+    border-left: 10px dashed violet;
+}
+#form {
+    background-color: deeppink;
+    padding: 1em;
+    border: 1px solid salmon;
+    box-shadow: 5px 5px 15px black;
+}
+#input {
+    block-size: 20px;
+}
+#htmldiv p {
+    font-size: 3em;
+}
+#htmldiv a {
+    font-size: 3em;
+}
+#htmldiv > mark:hover {
+    position: relative;
+    bottom: 10px;
+}
+#htmldiv > a:hover {
+    left: 20px
+}
+#virsus-blokas {
+    background-color: firebrick;
+    padding: 1em;
+    position: fixed;
+    bottom: 35em;
+    right: 3em;
+}
+#virsus-blokas a {
+    text-decoration: green;
+}

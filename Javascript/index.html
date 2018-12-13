@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Scriptai-->
+    <script src="Scripts/jQuery.js"></script>
+    <script src="Scripts/1.js"></script>
+    <script src="Scripts/2.js"></script>
+    <script src="Scripts/3.js"></script>
+    <script src="Scripts/4.js"></script>
+    <!--Scriptai-->
+
+    <button id="sleptirodyti">Slepti/rodyti teksta</button>
+    <p id="hider">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dignissimos fuga nesciunt soluta quod quos nulla asperiores ipsum quibusdam incidunt ut, dolorum doloribus ullam perspiciatis sed magni ipsam! Id, cum?
+    </p>
+
+    <script>
+        $(document).ready(function() {
+            $("#sleptirodyti").on("click", function() {
+                $("#hider").toggle();
+            });
+        });
+    </script>
+
+    <button id="keisti">Animuoti teksta</button>
+    <p id="paragrafas">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates soluta repellat eveniet vero ipsa enim quisquam, laboriosam corporis. Quidem dicta, corrupti quis maiores quos consequuntur earum officia rerum dolores quo.
+    </p>
+
+    <script>
+        $(document).ready(function() {
+            $("#keisti").on("click", function() {
+                $("#paragrafas").fadeToggle();
+            });
+        });
+    </script>
+
+    <div>
+    <button>Spausti ant manes kad slepti</button>
+   </div>
+
+   <button id="spausk">Spausk!</button>
+
+   <script>
+       $(document).ready(function() {
+           $("#spausk").on("click", function() {
+               console.log("Error windows not found");
+           });
+       });
+   </script>
+
+   <button id="dydis">Padidinti teksta</button>
+   <button id="spalva">Keisti spalva</button>
+
+   <p class="tekstas">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur libero nemo repellat cupiditate adipisci fugit nobis iste mollitia non sapiente nam ullam numquam ipsum asperiores voluptate, laboriosam minima facere? Eveniet!</p>
+   <p class="tekstas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eveniet dicta, est temporibus adipisci iure magni atque exercitationem, totam nobis minima libero quaerat, officiis perferendis sit molestiae quis deleniti mollitia!</p>
+   <p class="tekstas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dolor delectus voluptatibus sed quas, praesentium aperiam rerum omnis asperiores tempore. Et, possimus reprehenderit eveniet at eos delectus quaerat perspiciatis quasi!</p>
+
+   <input type="text" id="laukelis" placeholder="Rasykite teksta">
+   <p id="cia"></p>
+
+   <input type="text" id="laukelis2" placeholder="Rasykite teksta">
+   <button id="prideti">Prideti</button>
+   <ul id="cia2"></ul>
+
+</body>
+</html>
